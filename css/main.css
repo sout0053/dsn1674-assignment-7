@@ -107,6 +107,7 @@ figure {
 }
 
 figcaption {
+  display: block;
   background-color: #388200;
   border-radius: 20px;
   text-align: center;
