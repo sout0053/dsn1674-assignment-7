@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
 }
 
 *, *::before, *::after {
@@ -9,3 +10,14 @@ html {
 body {
   margin: 0;
 }
+
+/*header*/
+
+
+
+
+/*navigation*/
+
+/*gallery*/
+
+/*footer*/
