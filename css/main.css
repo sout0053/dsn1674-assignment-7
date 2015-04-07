@@ -13,10 +13,40 @@ body {
 
 /*header*/
 
+header {
+  margin: 0;
+  background-image: url("../images/subtle_white_mini_waves.png");
+}
 
+h1 {
+  background-image: url("../images/graphic.svg"),url("../images/graphic.svg");
+  margin: 0;
+  color: #512200;
+  font-size: 3em;
+  text-align: center;
+}
 
 
 /*navigation*/
+
+nav {
+  display: block;
+  margin: 0;
+  background-color: green;
+  width: 100%;
+}
+
+nav li {
+  box-sizing: border-box;
+  margin: 0;
+  display: inline;
+  width: 25%;
+}
+
+nav ul {
+  box-sizing: border-box;
+  margin: 0;
+}
 
 /*gallery*/
 
