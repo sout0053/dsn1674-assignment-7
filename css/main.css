@@ -119,6 +119,16 @@ figcaption {
   padding: .2em;
   background: linear-gradient(to bottom, #6fc000, #388200);
 }
+
+figcaption a {
+  color: white;
+  text-decoration: none;
+}
+
+figcaption:hover {
+  background-color: #388200;
+  background: linear-gradient(to bottom, #388200, #214d00);
+}
 /*footer*/
 
 footer {
