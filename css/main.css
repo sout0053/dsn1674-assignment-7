@@ -20,7 +20,11 @@ header {
 
 h1 {
   background-image: url("../images/graphic.svg"),url("../images/graphic.svg");
-  margin: 0;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, right;
+  background-size: 1em auto, 1em auto;
+  width: 95%;
+  margin: 0 auto;
   color: #512200;
   font-size: 3em;
   text-align: center;
@@ -32,21 +36,35 @@ h1 {
 nav {
   display: block;
   margin: 0;
-  background-color: green;
   width: 100%;
 }
 
 nav li {
+  float: left;
+  padding: .5em;
+  background-color: rgba(81,34,0,0.5);
   box-sizing: border-box;
+  text-align: center;
   margin: 0;
   display: inline;
   width: 25%;
 }
 
 nav ul {
+  padding: 0;
   box-sizing: border-box;
   margin: 0;
 }
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li:hover {
+  background-color: rgba(81,34,0,1);
+}
+
 
 /*gallery*/
 
